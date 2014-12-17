@@ -1,0 +1,99 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.wrapper{
+	width: 1200px;
+	margin: 5px auto;
+}
+/*header =====================================*/
+.header h1{
+	background-position: center;
+	font-family: Tahoma, sans-serif;
+	background-image: url("../images/header.jpg");
+	background-repeat: no-repeat;
+	font-size: 80px;
+	text-align: left;
+	padding: 40px 0px 190px 100px;
+}
+
+/*this is the menu bar =====================================*/
+.menu{
+	text-align: center;
+	list-style: none;
+	height: 50px;
+}
+.menu li{
+	display: inline-block;
+}
+.links{
+	color: #FF4500;
+	font-size: 20px;
+	font-family: Tahoma, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	margin: auto 10px;
+}
+
+a:hover{
+	color: #A52A2A;
+}
+/*this is main section =====================================*/
+.container{
+	-webkit-box-flex: 1;
+	margin: 20px;
+	padding: 20px;
+}
+article{
+	background-color: #FFEBCD;
+	padding: 20px;
+	margin: 10px auto;
+	box-shadow: 10px 5px 5px #888888;
+}
+h1{
+	font-size: 30px;
+}
+.postAuthor{
+	float: right;
+	font-size: 10px;
+}
+#photos{
+	display: inline-block;
+	font-style: tahoma, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px;
+}
+#movies{
+	height: 1000px;
+	width: 1000px;
+}
+/*This is table =====================================*/
+table thead{
+	background-color: #FF4500;
+	font-size: 20px;
+}
+table td{
+	text-align: center;
+	padding: 5px;
+	border: solid #FF4500 1px;
+}
+p{
+	font-style: Tahoma, sans-serif;
+}
+
+/*footer =====================================*/
+footer{
+	background-color: #444444;
+	padding: 30px 10px;
+	border-top: 5px solid white;
+	color: white;
+	font-size: 10px;
+	font-style: italic;
+	width: 100%;
+	text-align: center;
+}
+
+footer ul li{
+	display: inline;
+}
