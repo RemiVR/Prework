@@ -95,13 +95,6 @@ a:active{
 	margin:auto;
 	display:block;
 }
-#aside video{
-	max-width:100%; 
-	max-height:100%;
-	margin:auto;
-	display:block;
-	border-radius: 10px;
-}
 h1{
 	font-size: 30px;
 }
