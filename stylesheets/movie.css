@@ -1,0 +1,58 @@
+h1, h2, h3, p{
+	font-family: Arial;
+}
+#movie{
+	width: 900px;
+	margin: 50px auto;
+}
+#movie h1{
+	border-bottom: 1px #DCDCDC solid;
+}
+.cover{
+	margin: 10px;
+	float: left;
+	height: 550px;
+	width: 430px;
+}
+.cover img{
+	max-width:100%; 
+	max-height:100%;
+	margin:auto;
+	display:block;
+	box-shadow: 7px 7px 7px #DCDCDC;
+}
+.aside{
+	margin: 10px;
+	float: right;
+	height: 510px;
+	width: 410px;
+	text-align: justify;
+}
+#description{
+	padding: 15px;
+}
+#description h1{
+	border-bottom: 1px #DCDCDC solid;
+}
+.bottom{
+	box-shadow: 4px 4px 7px #DCDCDC;
+	margin: 20px;
+	height: 250px;
+	width: auto;
+}
+.bottom ul{
+	width: auto;
+}
+.bottom ul li{
+	display: inline;
+	list-style-type: none;
+	padding: 10px auto;
+	margin: 5px;
+}
+.bottom a:hover{
+
+	box-shadow: 0px 10px 25px #696969;
+}
+.bottom h3{
+	padding: 10px;
+}

@@ -8,38 +8,41 @@
 </head>
 
 <body>
-<div class="wrapper">
-	<header class="header">
-	<h1>My awesome<br> blog</h1>
-	</header> 
-
 	<nav>
 		<ul class="menu">
 			<li><a class="links" href="index.html">Home</a></li>
 			<li><a class="links" href="about.html">About me</a></li>
+			<li><a class="links" href="movies.html">Movie</a></li>
 		</ul>
 	</nav>
 
-<div class="container">
-	<article>
-		<h1>Some info about me</h1>
-		<p>My name is Remi(Remigijus) and I am from lithuania, I live in barcelona and my life is about to get more exciting as i will be doing the Ironhack Web Development course, Really looking forward to that!!!</p> 
-	</article>
-	<article>
-		<header>
-		</header>
-	</article>
-	<article>
-		<h1>Some pictures of me</h1>
-		<h3><em>I have been up to some stuff</em></h3>
-		<div id="photos"><img src="images/me.jpg" height="180px" width="260px"><p> That was me at Parc Guell</p></div>
-		<div id="photos"><img src="images/holi.jpg" height="180px" width="240px"><p> That was me at Holi festival</p></div>
-		<div id="photos"><img src="images/barca.jpg" height="180px" width="240px"><p> That was me watching football</p></div>
+<div class="wrapper">
+	<header class="header">
+	<h1>My awesome<br> blog</h1>
 
+	</header> 
+
+
+<div id="main">
+<section class="container">
+	<article class="article">
+		<h1>Some info about me</h1>
+		<h3><em>Hello, to those who will read</em></h3><br>
+		<p>My name is Remi(Remigijus) I am 23 years old(currently) and I am from Lithuania, I live in Barcelona and really like this city, specially the football team. They are great aren't they?!</p> 
 	</article>
-	<article>
+	<article class="article">
+		<h1>Some Photos of me</h1>
+		<h3><em>I have been up to some stuff</em></h3><br>
+		<table id="photos">
+			<tr>
+			<td><div><img src="images/me.jpg" height="180px" width="260px"><p> That was me at Parc Guell</p></div></td>
+			<td><div><img src="images/holi.jpg" height="180px" width="240px"><p> That was me at Holi festival</p></div></td>
+			<td><div id="photos"><img src="images/barca.jpg" height="180px" width="240px"><p> That was me watching football</p></div></td>
+		</table>
+	</article>
+	<article class="article">
 			<h1>Cars i can only dream about</h1>
-				<h3><em>But one day I will push that Fiat!</em></h3>
+				<h3><em>But one day I will push that Fiat!</em></h3><br>
 				<table class="car-list">
 					<thead >
 						<tr> <td>Manufacture</td> <td>Model</td> <td>Top speed</td> <td>Price</td> <td>Image</td> </tr>
@@ -52,6 +55,18 @@
 				</table>
 		<span class="postAuthor">-written by Remi</span>
 	</article>
+</section>
+	<aside id="aside">
+		<article class="aside_news">
+			<h2>Look at this!</h2>
+			<a href="http://www.ironhack.com/en/"><img src="images/ironhack.png"></a>
+		</article>
+		<article class="aside_news">
+			<h2>Check out my Google page</h2>
+			<a href="http://remivr.github.io/Prework/google.html"><img src="images/google.png">
+			<p>(Now that is fake by the way) <a href="https://www.google.com">Real google is here</a></p>
+		</article>
+	</aside>
 </div>
 
 	<footer>

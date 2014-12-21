@@ -1,0 +1,125 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 13px;
+	font-family: arial;
+}
+/* Header ==================================================*/
+header{
+	text-align: right;
+	padding: 14px;
+}
+.trm{
+	display: inline-block;
+	padding-left: 15px;
+	vertical-align: middle;
+}
+.tr{
+	text-decoration: none;
+	color: #404040;
+	font-family: arial;
+	font-size: 14px;
+}
+a:hover{
+	text-decoration: underline;
+}
+.tr img{
+	border-radius: 80%;
+}
+/* Main Stage ==================================================*/
+.container{
+	width: 100%;
+	height: 380px;
+	margin: 130px 0 0 0;
+}
+.logo{
+	width: 269px;
+	height: 95px;
+	margin: 0 auto;
+	background: url(../images/glogo.png);
+	background-size: 269px 95px;
+}
+.lang{
+	font-family: Arial;
+	color: #777;
+	font-size: 16px;
+	font-weight: bold;
+	position: relative;
+	left: 218px;
+	top: 70px;
+}
+.search{
+	width: 570px;
+	height: 30px;
+	margin: 25px auto 0 auto;
+	border: 1px solid #DDD;
+}
+.micro{
+	width: 17px;
+	height: 23px;
+	background: url("../images/mic.png") no-repeat;
+	background-size: 14px 19px;
+	opacity: .6;
+	float: right;
+	margin: 5px 4px 0 0;
+	cursor: pointer;
+}
+.buttons{
+	margin: 17px auto 0 auto;
+	width: 280px;
+	height: 30px;
+	text-align: center;
+}
+.btn{
+	margin: 0 0 0 14px;
+	float: left;
+	width: 118px;
+	height: 21px;
+	border: 1px solid #dcdcdc;
+	border-color: #dddddd;
+	color: #444444;
+	font-size: 11px;
+	background: #f5f5f5;
+	padding: 6px 0 0 0;
+	font-weight: 600;
+	border-radius: 2px;
+}
+.btn:hover{
+	box-shadow: 0 1px 0 #dddddd;
+}
+/* footer ==================================================*/
+footer{
+	width: 100%;
+	height: 40px;
+	background: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	color: #666;
+	bottom: 0;
+	font-size: 10pt;
+	position: absolute;
+}
+ul a{
+	color: #666;
+	text-decoration: none;
+}
+ul a:hover{
+	text-decoration: underline;
+}
+.leftl{
+	float: left;
+	margin: 10px 0 0 20px;
+}
+.leftl li{
+	display: inline;
+	margin: 0 30px 0 0;
+}
+.rightl{
+	float: right;
+	margin: 10px 0 0 0;
+}
+.rightl li{
+	display: inline;
+	margin: 0 30px 0 0;
+}
