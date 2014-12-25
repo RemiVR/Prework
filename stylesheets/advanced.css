@@ -1,0 +1,171 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.attr{
+	font-weight: bold;
+	font-family: arial, sans-serif;
+	text-align: center;
+	font-size: 25px;
+	color: white;
+	background-color: #FF4500;
+}
+/* Header ================================================*/
+header{
+	background-color: #00BFFF;
+	width: 1000px;
+	height: 100px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.logotop{
+	float: left;
+	width: 100px;
+	height: 90px;
+	margin: 5px 0px;
+	margin-left: 20px;
+}
+.menu{
+	width: 200px;
+	height: 30px;
+	float: right;
+	margin-left: 20px;
+	position: relative;
+	top: 70px;
+}
+#wrapper{
+	margin: 0 auto;
+	width: 1000px;
+	height: 1000px;
+}
+article{
+	float: left;
+}
+.box{
+	display: block;
+	width: 780px;
+	background-color: #9ACD32;
+}
+/* main box1 ================================================*/
+.box1{
+	height: 380px;
+	margin: 10px 10px 20px 0px;
+}
+.large1{
+	width: 780px;
+	height: 220px;
+	margin-bottom: 10px;
+}
+h1{
+	display: relative;
+	vertical-align: middle;
+}
+.pieces1{
+	margin: 0 10px;
+	float: left;
+	width: 160px;
+	height: 150px;
+}
+.piece1{
+	margin-left: 20px;
+}
+.tiny1{
+	float: right;
+	height: 150px;
+	width: 40px;
+}
+/* main box2 ================================================*/
+.box2{
+	height: 280px;
+	margin: 10px 10px 20px 0px;
+}
+.piece2{
+	margin: 0 20px;
+	float: left;
+	width: 160px;
+	height: 280px;
+}
+.large2{
+	float: right;
+	margin-top: 20px;
+	width: 580px;
+	height: 180px;
+}
+.bottom2{
+	margin-top: 20px;
+	float: right;
+	width: 580px;
+	height: 60px;
+}
+/* main box3 ================================================*/
+.box3{
+	height: 280px;
+	margin: 10px 10px 20px 0px;
+}
+.piece3{
+	margin-left:20px;
+	float: left;
+	width: 160px;
+	height: 280px;
+}
+.large3{
+	margin-left:20px;
+	width: 280px;
+	height: 280px;
+	float: right;
+}
+/* aside ================================================*/
+aside{
+	margin: 10px 0 10px 0;
+	float: right;
+	position: relative;
+	background-color: #9ACD32;
+	width: 200px;
+	height: 980px;
+}
+.side1{
+	width: 200px;
+	height: 80px;
+	margin-bottom: 20px;
+}
+.side2{
+	width: 200px;
+	height: 120px;
+	margin-bottom: 10px;
+}
+.side3{
+	width: 200px;
+	height: 370px;
+	margin-bottom: 20px;
+}
+.side4{
+	width: 200px;
+	height: 360px;
+}
+/* footer ================================================*/
+footer{
+	margin-top: 10px;
+	clear: both;
+	background-color: #00BFFF;
+	height: 130px;
+	width: 100%;
+}
+.fmenu{
+	margin: 0 auto;
+	width: 1000px;
+	height: 130px;
+}
+.bottomlogo{
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin: 15px 0;
+	margin-left: 20px;
+}
+.bottommenu{
+	margin: 15px 0;
+	margin-left: 20px;
+	float: right;
+	width: 200px;
+	height: 100px;
+}
